@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+/* Colors: */
+$color-12121240: #12121240;
+$color-12121280: #12121280;
+$color-121212: #121212;
+$color-17204d: #17204D;
+$color-144bcc: #144BCC;
+$color-0080ff: #0080FF;
+$color-ffc600: #FFC600;
+$color-f7f8f9: #F7F8F9;
+$color-707070: #707070;
+$color-ffffff: #FFFFFF;
+$color-141516: #141516;
+$color-007aff: #007AFF;
+
+/* Font/text values */
+$font-family-prompt: 'Prompt', sans-serif;
+$font-style-normal: normal;
+$font-weight-600: 600px;
+$font-weight-medium: medium;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-24: 24px;
+$font-size-32: 32px;
+$font-size-48: 48px;
+$character-spacing-0: 0px;
+$line-spacing-24: 24px;
+$line-spacing-28: 28px;
+$line-spacing-36: 36px;
+$line-spacing-49: 49px;
+$line-spacing-72: 72px;
+
+
+/* Character Styles */
+.h1-prompt-—-48pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-medium;
+font-size: $font-size-48;
+line-height: $line-spacing-72;
+letter-spacing: $character-spacing-0;
+color: $color-121212;
+}
+.h2-prompt-—-32pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-medium;
+font-size: $font-size-32;
+line-height: $line-spacing-49;
+letter-spacing: $character-spacing-0;
+color: $color-121212;
+}
+.h3-roboto-—-24pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-medium;
+font-size: $font-size-24;
+line-height: $line-spacing-36;
+letter-spacing: $character-spacing-0;
+color: $color-121212;
+}
+.h4-prompt-—-16pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-normal;
+font-size: $font-size-16;
+line-height: $line-spacing-24;
+letter-spacing: $character-spacing-0;
+color: $color-ffc600;
+}
+.h5-prompt-—-24pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-medium;
+font-size: $font-size-24;
+line-height: $line-spacing-36;
+letter-spacing: $character-spacing-0;
+color: $color-007aff;
+}
+.body-prompt-—-16pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-bold;
+font-size: $font-size-16;
+line-height: $line-spacing-24;
+letter-spacing: $character-spacing-0;
+color: $color-141516;
+
+}
+.menu-prompt-—-16pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-medium;
+font-size: $font-size-16;
+line-height: $line-spacing-24;
+letter-spacing: $character-spacing-0;
+color: $color-17204d;
+}
+.unnamed-character-style-1 {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-600;
+font-size: $font-size-18;
+line-height: $line-spacing-28;
+letter-spacing: $character-spacing-0;
+color: $color-141516;
+}
+.button-prompt-—-16pt {
+font-family: $font-family-prompt;
+font-style: $font-style-normal;
+font-weight: $font-weight-bold;
+font-size: $font-size-16;
+line-height: $line-spacing-24;
+letter-spacing: $character-spacing-0;
+color: $color-ffffff;
+}

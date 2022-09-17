@@ -1,0 +1,208 @@
+@use 'Variable.scss';
+@mixin  position() {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-items: center;
+}
+$size-width-img : 341px;
+$size-height-img: 200px;
+$size-width-div : 341px;
+$size-height-div : 71px;
+body{
+
+  background:#FAFAFA;
+}
+
+
+//// Service
+.Service_Container {     
+    width: 1280px;
+    height: 451px;
+    background: transparent url('../img/housewife.png') 0% 0% no-repeat padding-box;
+    text-align: center;
+    @include position();
+    /// body page  service
+    .body_Row{
+      width: 100%;
+     margin-top:146px ;
+    }     
+    
+    h1 {  
+      text-align: center;
+      font-family: Variable.$font-family-prompt; 
+      color: #121212;
+    }
+    
+    .detail{
+      font-family: Variable.$font-family-prompt; 
+      width: 384px;
+      height: 410px;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #141516;
+      font-size: Variable.$font-size-16 ;
+    }
+     
+ 
+}
+
+
+.Service_Row{
+ 
+  margin-top: 10px ; 
+  width: 95%;
+  .Service_Row_div1{
+  
+    margin: 40px 0px 0px 0px;
+    border-radius:10px 10px 0px 0px;
+    width: $size-width-div;
+    height: $size-height-img;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:  $size-width-img;
+      height:  $size-height-img;
+      object-fit: cover;
+      border-radius:10px 10px 0px 0px;
+      padding: 0px;
+      border: 1px solid rgb(207, 207, 207);
+    }
+  }
+ 
+  a{
+    color: Variable.$color-17204d;
+  }
+  a:link {
+    text-decoration: none;   
+  }
+  .Service_Row_div2{
+    background-color: #ffffff;
+    font-family: Variable.$font-family-prompt; 
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0px 0px 10px 10px ;
+    width: $size-width-div;
+    height: $size-height-div ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+   
+  
+  }
+}
+
+//Topbar
+.Topbar_Container{
+  font-family: Variable.$font-family-prompt;
+  font-size: Variable.$font-size-16 ;
+  position: absolute;
+  top: 50px;   
+  
+  a{
+    color: Variable.$color-17204d;
+  }
+  a:link {
+    text-decoration: none;   
+  }
+
+
+} 
+
+
+
+//// service Detail
+
+div .div_detail{
+  width: 1280px;
+
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+   @include position();  
+   border: 1px solid rgb(214, 214, 214); 
+   
+  .body_Detail {
+    width: 100%;
+    margin: 110px 0px 0px 91px;
+    
+    // margin: 0px;
+    // text-align: left;
+  }
+  .div_descript{
+    width: 779px;
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .btn_reserve{
+    border: 0px solid ; 
+    padding-bottom: 100px;
+
+  }
+
+  .btn_reserve:hover{
+    cursor: pointer;
+  }
+}
+
+
+///order_list
+div .div_OrderList{
+  @include position();
+  width: 1280px; 
+  border: 1px solid rgb(209, 209, 209);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  .div_bodyOrderList{
+    
+    margin: 175px 0px 100px 0px;
+  }
+
+  
+   
+    li{
+      width: 910px;
+     
+      list-style-type:none;
+      border: 1px solid #d3d3d3 ;
+      border-radius: 15px;
+      height: 125px;
+      box-shadow: 1px 3px rgb(219, 219, 219);
+      margin: 8px;
+      display: flex;
+      align-items: center;
+    
+    }
+
+
+    .col_li{
+      
+      h4{
+        display: inline-block;
+        margin-right: 20px ;
+      }
+     h5{
+      font-weight: bold;
+      font-family: Variable.$font-family-prompt;
+      display: inline-block;
+      
+     }
+
+     
+      .li_col{
+        
+   
+       
+      }
+    }
+    
+
+    
+
+    
+  
+
+ 
+}
+
+
